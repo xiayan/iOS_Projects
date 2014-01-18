@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		744C7D5E14806EE4002EE65E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 744C7D5D14806EE4002EE65E /* UIKit.framework */; };
+		744C7D6014806EE4002EE65E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 744C7D5F14806EE4002EE65E /* Foundation.framework */; };
+		744C7D6214806EE4002EE65E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 744C7D6114806EE4002EE65E /* CoreGraphics.framework */; };
+		744C7D6814806EE4002EE65E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 744C7D6614806EE4002EE65E /* InfoPlist.strings */; };
+		744C7D6A14806EE4002EE65E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 744C7D6914806EE4002EE65E /* main.m */; };
+		744C7D6E14806EE4002EE65E /* AdAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 744C7D6D14806EE4002EE65E /* AdAppAppDelegate.m */; };
+		744C7D7114806EE4002EE65E /* AdAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744C7D7014806EE4002EE65E /* AdAppViewController.m */; };
+		744C7D7414806EE4002EE65E /* AdAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 744C7D7214806EE4002EE65E /* AdAppViewController.xib */; };
+		744C7D7B14806F33002EE65E /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 744C7D7A14806F33002EE65E /* iAd.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		744C7D5914806EE4002EE65E /* AdApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		744C7D5D14806EE4002EE65E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		744C7D5F14806EE4002EE65E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		744C7D6114806EE4002EE65E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		744C7D6514806EE4002EE65E /* AdApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdApp-Info.plist"; sourceTree = "<group>"; };
+		744C7D6714806EE4002EE65E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		744C7D6914806EE4002EE65E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		744C7D6B14806EE4002EE65E /* AdApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdApp-Prefix.pch"; sourceTree = "<group>"; };
+		744C7D6C14806EE4002EE65E /* AdAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdAppAppDelegate.h; sourceTree = "<group>"; };
+		744C7D6D14806EE4002EE65E /* AdAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdAppAppDelegate.m; sourceTree = "<group>"; };
+		744C7D6F14806EE4002EE65E /* AdAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdAppViewController.h; sourceTree = "<group>"; };
+		744C7D7014806EE4002EE65E /* AdAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdAppViewController.m; sourceTree = "<group>"; };
+		744C7D7314806EE4002EE65E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AdAppViewController.xib; sourceTree = "<group>"; };
+		744C7D7A14806F33002EE65E /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		744C7D5614806EE4002EE65E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744C7D7B14806F33002EE65E /* iAd.framework in Frameworks */,
+				744C7D5E14806EE4002EE65E /* UIKit.framework in Frameworks */,
+				744C7D6014806EE4002EE65E /* Foundation.framework in Frameworks */,
+				744C7D6214806EE4002EE65E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		744C7D4E14806EE4002EE65E = {
+			isa = PBXGroup;
+			children = (
+				744C7D6314806EE4002EE65E /* AdApp */,
+				744C7D5C14806EE4002EE65E /* Frameworks */,
+				744C7D5A14806EE4002EE65E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		744C7D5A14806EE4002EE65E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				744C7D5914806EE4002EE65E /* AdApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		744C7D5C14806EE4002EE65E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				744C7D7A14806F33002EE65E /* iAd.framework */,
+				744C7D5D14806EE4002EE65E /* UIKit.framework */,
+				744C7D5F14806EE4002EE65E /* Foundation.framework */,
+				744C7D6114806EE4002EE65E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		744C7D6314806EE4002EE65E /* AdApp */ = {
+			isa = PBXGroup;
+			children = (
+				744C7D6C14806EE4002EE65E /* AdAppAppDelegate.h */,
+				744C7D6D14806EE4002EE65E /* AdAppAppDelegate.m */,
+				744C7D6F14806EE4002EE65E /* AdAppViewController.h */,
+				744C7D7014806EE4002EE65E /* AdAppViewController.m */,
+				744C7D7214806EE4002EE65E /* AdAppViewController.xib */,
+				744C7D6414806EE4002EE65E /* Supporting Files */,
+			);
+			path = AdApp;
+			sourceTree = "<group>";
+		};
+		744C7D6414806EE4002EE65E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				744C7D6514806EE4002EE65E /* AdApp-Info.plist */,
+				744C7D6614806EE4002EE65E /* InfoPlist.strings */,
+				744C7D6914806EE4002EE65E /* main.m */,
+				744C7D6B14806EE4002EE65E /* AdApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		744C7D5814806EE4002EE65E /* AdApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 744C7D7714806EE4002EE65E /* Build configuration list for PBXNativeTarget "AdApp" */;
+			buildPhases = (
+				744C7D5514806EE4002EE65E /* Sources */,
+				744C7D5614806EE4002EE65E /* Frameworks */,
+				744C7D5714806EE4002EE65E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdApp;
+			productName = AdApp;
+			productReference = 744C7D5914806EE4002EE65E /* AdApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		744C7D5014806EE4002EE65E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 744C7D5314806EE4002EE65E /* Build configuration list for PBXProject "AdApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 744C7D4E14806EE4002EE65E;
+			productRefGroup = 744C7D5A14806EE4002EE65E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				744C7D5814806EE4002EE65E /* AdApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		744C7D5714806EE4002EE65E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744C7D6814806EE4002EE65E /* InfoPlist.strings in Resources */,
+				744C7D7414806EE4002EE65E /* AdAppViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		744C7D5514806EE4002EE65E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744C7D6A14806EE4002EE65E /* main.m in Sources */,
+				744C7D6E14806EE4002EE65E /* AdAppAppDelegate.m in Sources */,
+				744C7D7114806EE4002EE65E /* AdAppViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		744C7D6614806EE4002EE65E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				744C7D6714806EE4002EE65E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		744C7D7214806EE4002EE65E /* AdAppViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				744C7D7314806EE4002EE65E /* en */,
+			);
+			name = AdAppViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		744C7D7514806EE4002EE65E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		744C7D7614806EE4002EE65E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		744C7D7814806EE4002EE65E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AdApp/AdApp-Prefix.pch";
+				INFOPLIST_FILE = "AdApp/AdApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		744C7D7914806EE4002EE65E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AdApp/AdApp-Prefix.pch";
+				INFOPLIST_FILE = "AdApp/AdApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		744C7D5314806EE4002EE65E /* Build configuration list for PBXProject "AdApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				744C7D7514806EE4002EE65E /* Debug */,
+				744C7D7614806EE4002EE65E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		744C7D7714806EE4002EE65E /* Build configuration list for PBXNativeTarget "AdApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				744C7D7814806EE4002EE65E /* Debug */,
+				744C7D7914806EE4002EE65E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 744C7D5014806EE4002EE65E /* Project object */;
+}

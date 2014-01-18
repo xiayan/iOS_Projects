@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7442CD4314894357002F011A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7442CD4214894357002F011A /* UIKit.framework */; };
+		7442CD4514894357002F011A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7442CD4414894357002F011A /* Foundation.framework */; };
+		7442CD4714894357002F011A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7442CD4614894357002F011A /* CoreGraphics.framework */; };
+		7442CD4914894357002F011A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7442CD4814894357002F011A /* CoreData.framework */; };
+		7442CD4F14894357002F011A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7442CD4D14894357002F011A /* InfoPlist.strings */; };
+		7442CD5114894357002F011A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7442CD5014894357002F011A /* main.m */; };
+		7442CD5514894357002F011A /* RecipeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7442CD5414894357002F011A /* RecipeAppDelegate.m */; };
+		7442CD5814894357002F011A /* Recipe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7442CD5614894357002F011A /* Recipe.xcdatamodeld */; };
+		7442CD6014894357002F011A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7442CD5F14894357002F011A /* SenTestingKit.framework */; };
+		7442CD6114894357002F011A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7442CD4214894357002F011A /* UIKit.framework */; };
+		7442CD6214894357002F011A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7442CD4414894357002F011A /* Foundation.framework */; };
+		7442CD6314894357002F011A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7442CD4814894357002F011A /* CoreData.framework */; };
+		7442CD6B14894358002F011A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7442CD6914894357002F011A /* InfoPlist.strings */; };
+		7442CD6E14894358002F011A /* RecipeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7442CD6D14894358002F011A /* RecipeTests.m */; };
+		7442CD7A14894448002F011A /* QuickBufferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7442CD7814894448002F011A /* QuickBufferViewController.m */; };
+		7442CD7B14894448002F011A /* QuickBufferViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7442CD7914894448002F011A /* QuickBufferViewController.xib */; };
+		7442CD7F14894487002F011A /* StockBufferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7442CD7D14894487002F011A /* StockBufferViewController.m */; };
+		7442CD8014894487002F011A /* StockBufferViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7442CD7E14894487002F011A /* StockBufferViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7442CD6414894357002F011A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7442CD3514894357002F011A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7442CD3D14894357002F011A;
+			remoteInfo = Recipe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7442CD3E14894357002F011A /* Recipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7442CD4214894357002F011A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7442CD4414894357002F011A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7442CD4614894357002F011A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7442CD4814894357002F011A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7442CD4C14894357002F011A /* Recipe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe-Info.plist"; sourceTree = "<group>"; };
+		7442CD4E14894357002F011A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7442CD5014894357002F011A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7442CD5214894357002F011A /* Recipe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipe-Prefix.pch"; sourceTree = "<group>"; };
+		7442CD5314894357002F011A /* RecipeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeAppDelegate.h; sourceTree = "<group>"; };
+		7442CD5414894357002F011A /* RecipeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeAppDelegate.m; sourceTree = "<group>"; };
+		7442CD5714894357002F011A /* Recipe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Recipe.xcdatamodel; sourceTree = "<group>"; };
+		7442CD5E14894357002F011A /* RecipeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7442CD5F14894357002F011A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7442CD6814894357002F011A /* RecipeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RecipeTests-Info.plist"; sourceTree = "<group>"; };
+		7442CD6A14894358002F011A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7442CD6C14894358002F011A /* RecipeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeTests.h; sourceTree = "<group>"; };
+		7442CD6D14894358002F011A /* RecipeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeTests.m; sourceTree = "<group>"; };
+		7442CD7714894448002F011A /* QuickBufferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickBufferViewController.h; sourceTree = "<group>"; };
+		7442CD7814894448002F011A /* QuickBufferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickBufferViewController.m; sourceTree = "<group>"; };
+		7442CD7914894448002F011A /* QuickBufferViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuickBufferViewController.xib; sourceTree = "<group>"; };
+		7442CD7C14894486002F011A /* StockBufferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockBufferViewController.h; sourceTree = "<group>"; };
+		7442CD7D14894487002F011A /* StockBufferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockBufferViewController.m; sourceTree = "<group>"; };
+		7442CD7E14894487002F011A /* StockBufferViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StockBufferViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7442CD3B14894357002F011A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7442CD4314894357002F011A /* UIKit.framework in Frameworks */,
+				7442CD4514894357002F011A /* Foundation.framework in Frameworks */,
+				7442CD4714894357002F011A /* CoreGraphics.framework in Frameworks */,
+				7442CD4914894357002F011A /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7442CD5A14894357002F011A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7442CD6014894357002F011A /* SenTestingKit.framework in Frameworks */,
+				7442CD6114894357002F011A /* UIKit.framework in Frameworks */,
+				7442CD6214894357002F011A /* Foundation.framework in Frameworks */,
+				7442CD6314894357002F011A /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7442CD3314894357002F011A = {
+			isa = PBXGroup;
+			children = (
+				7442CD4A14894357002F011A /* Recipe */,
+				7442CD6614894357002F011A /* RecipeTests */,
+				7442CD4114894357002F011A /* Frameworks */,
+				7442CD3F14894357002F011A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7442CD3F14894357002F011A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7442CD3E14894357002F011A /* Recipe.app */,
+				7442CD5E14894357002F011A /* RecipeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7442CD4114894357002F011A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7442CD4214894357002F011A /* UIKit.framework */,
+				7442CD4414894357002F011A /* Foundation.framework */,
+				7442CD4614894357002F011A /* CoreGraphics.framework */,
+				7442CD4814894357002F011A /* CoreData.framework */,
+				7442CD5F14894357002F011A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7442CD4A14894357002F011A /* Recipe */ = {
+			isa = PBXGroup;
+			children = (
+				7442CD5614894357002F011A /* Recipe.xcdatamodeld */,
+				7442CD5314894357002F011A /* RecipeAppDelegate.h */,
+				7442CD5414894357002F011A /* RecipeAppDelegate.m */,
+				7442CD7714894448002F011A /* QuickBufferViewController.h */,
+				7442CD7814894448002F011A /* QuickBufferViewController.m */,
+				7442CD7914894448002F011A /* QuickBufferViewController.xib */,
+				7442CD7C14894486002F011A /* StockBufferViewController.h */,
+				7442CD7D14894487002F011A /* StockBufferViewController.m */,
+				7442CD7E14894487002F011A /* StockBufferViewController.xib */,
+				7442CD4B14894357002F011A /* Supporting Files */,
+			);
+			path = Recipe;
+			sourceTree = "<group>";
+		};
+		7442CD4B14894357002F011A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7442CD4C14894357002F011A /* Recipe-Info.plist */,
+				7442CD4D14894357002F011A /* InfoPlist.strings */,
+				7442CD5014894357002F011A /* main.m */,
+				7442CD5214894357002F011A /* Recipe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7442CD6614894357002F011A /* RecipeTests */ = {
+			isa = PBXGroup;
+			children = (
+				7442CD6C14894358002F011A /* RecipeTests.h */,
+				7442CD6D14894358002F011A /* RecipeTests.m */,
+				7442CD6714894357002F011A /* Supporting Files */,
+			);
+			path = RecipeTests;
+			sourceTree = "<group>";
+		};
+		7442CD6714894357002F011A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7442CD6814894357002F011A /* RecipeTests-Info.plist */,
+				7442CD6914894357002F011A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7442CD3D14894357002F011A /* Recipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7442CD7114894358002F011A /* Build configuration list for PBXNativeTarget "Recipe" */;
+			buildPhases = (
+				7442CD3A14894357002F011A /* Sources */,
+				7442CD3B14894357002F011A /* Frameworks */,
+				7442CD3C14894357002F011A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Recipe;
+			productName = Recipe;
+			productReference = 7442CD3E14894357002F011A /* Recipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7442CD5D14894357002F011A /* RecipeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7442CD7414894358002F011A /* Build configuration list for PBXNativeTarget "RecipeTests" */;
+			buildPhases = (
+				7442CD5914894357002F011A /* Sources */,
+				7442CD5A14894357002F011A /* Frameworks */,
+				7442CD5B14894357002F011A /* Resources */,
+				7442CD5C14894357002F011A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7442CD6514894357002F011A /* PBXTargetDependency */,
+			);
+			name = RecipeTests;
+			productName = RecipeTests;
+			productReference = 7442CD5E14894357002F011A /* RecipeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7442CD3514894357002F011A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 7442CD3814894357002F011A /* Build configuration list for PBXProject "Recipe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7442CD3314894357002F011A;
+			productRefGroup = 7442CD3F14894357002F011A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7442CD3D14894357002F011A /* Recipe */,
+				7442CD5D14894357002F011A /* RecipeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7442CD3C14894357002F011A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7442CD4F14894357002F011A /* InfoPlist.strings in Resources */,
+				7442CD7B14894448002F011A /* QuickBufferViewController.xib in Resources */,
+				7442CD8014894487002F011A /* StockBufferViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7442CD5B14894357002F011A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7442CD6B14894358002F011A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7442CD5C14894357002F011A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7442CD3A14894357002F011A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7442CD5114894357002F011A /* main.m in Sources */,
+				7442CD5514894357002F011A /* RecipeAppDelegate.m in Sources */,
+				7442CD5814894357002F011A /* Recipe.xcdatamodeld in Sources */,
+				7442CD7A14894448002F011A /* QuickBufferViewController.m in Sources */,
+				7442CD7F14894487002F011A /* StockBufferViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7442CD5914894357002F011A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7442CD6E14894358002F011A /* RecipeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7442CD6514894357002F011A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7442CD3D14894357002F011A /* Recipe */;
+			targetProxy = 7442CD6414894357002F011A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7442CD4D14894357002F011A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7442CD4E14894357002F011A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7442CD6914894357002F011A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7442CD6A14894358002F011A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7442CD6F14894358002F011A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7442CD7014894358002F011A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7442CD7214894358002F011A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe/Recipe-Prefix.pch";
+				INFOPLIST_FILE = "Recipe/Recipe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7442CD7314894358002F011A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe/Recipe-Prefix.pch";
+				INFOPLIST_FILE = "Recipe/Recipe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7442CD7514894358002F011A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recipe.app/Recipe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe/Recipe-Prefix.pch";
+				INFOPLIST_FILE = "RecipeTests/RecipeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7442CD7614894358002F011A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recipe.app/Recipe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe/Recipe-Prefix.pch";
+				INFOPLIST_FILE = "RecipeTests/RecipeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7442CD3814894357002F011A /* Build configuration list for PBXProject "Recipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7442CD6F14894358002F011A /* Debug */,
+				7442CD7014894358002F011A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7442CD7114894358002F011A /* Build configuration list for PBXNativeTarget "Recipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7442CD7214894358002F011A /* Debug */,
+				7442CD7314894358002F011A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7442CD7414894358002F011A /* Build configuration list for PBXNativeTarget "RecipeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7442CD7514894358002F011A /* Debug */,
+				7442CD7614894358002F011A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7442CD5614894357002F011A /* Recipe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7442CD5714894357002F011A /* Recipe.xcdatamodel */,
+			);
+			currentVersion = 7442CD5714894357002F011A /* Recipe.xcdatamodel */;
+			path = Recipe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7442CD3514894357002F011A /* Project object */;
+}

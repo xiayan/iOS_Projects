@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		744C7CFB14803175002EE65E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 744C7CFA14803175002EE65E /* UIKit.framework */; };
+		744C7CFD14803175002EE65E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 744C7CFC14803175002EE65E /* Foundation.framework */; };
+		744C7CFF14803175002EE65E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 744C7CFE14803175002EE65E /* CoreGraphics.framework */; };
+		744C7D0514803175002EE65E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 744C7D0314803175002EE65E /* InfoPlist.strings */; };
+		744C7D0714803175002EE65E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 744C7D0614803175002EE65E /* main.m */; };
+		744C7D0B14803175002EE65E /* Draw2DAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 744C7D0A14803175002EE65E /* Draw2DAppDelegate.m */; };
+		744C7D0E14803175002EE65E /* Draw2DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744C7D0D14803175002EE65E /* Draw2DViewController.m */; };
+		744C7D1114803175002EE65E /* Draw2DViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 744C7D0F14803175002EE65E /* Draw2DViewController.xib */; };
+		744C7D19148031B8002EE65E /* Draw2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 744C7D18148031B8002EE65E /* Draw2D.m */; };
+		744C7D1B14804B05002EE65E /* pumpkin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 744C7D1A14804B05002EE65E /* pumpkin.jpg */; };
+		744C7D1D14804DA3002EE65E /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 744C7D1C14804DA3002EE65E /* CoreImage.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		744C7CF614803175002EE65E /* Draw2D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Draw2D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		744C7CFA14803175002EE65E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		744C7CFC14803175002EE65E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		744C7CFE14803175002EE65E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		744C7D0214803175002EE65E /* Draw2D-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Draw2D-Info.plist"; sourceTree = "<group>"; };
+		744C7D0414803175002EE65E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		744C7D0614803175002EE65E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		744C7D0814803175002EE65E /* Draw2D-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Draw2D-Prefix.pch"; sourceTree = "<group>"; };
+		744C7D0914803175002EE65E /* Draw2DAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Draw2DAppDelegate.h; sourceTree = "<group>"; };
+		744C7D0A14803175002EE65E /* Draw2DAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Draw2DAppDelegate.m; sourceTree = "<group>"; };
+		744C7D0C14803175002EE65E /* Draw2DViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Draw2DViewController.h; sourceTree = "<group>"; };
+		744C7D0D14803175002EE65E /* Draw2DViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Draw2DViewController.m; sourceTree = "<group>"; };
+		744C7D1014803175002EE65E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Draw2DViewController.xib; sourceTree = "<group>"; };
+		744C7D17148031B8002EE65E /* Draw2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Draw2D.h; sourceTree = "<group>"; };
+		744C7D18148031B8002EE65E /* Draw2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Draw2D.m; sourceTree = "<group>"; };
+		744C7D1A14804B05002EE65E /* pumpkin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pumpkin.jpg; sourceTree = "<group>"; };
+		744C7D1C14804DA3002EE65E /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		744C7CF314803175002EE65E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744C7D1D14804DA3002EE65E /* CoreImage.framework in Frameworks */,
+				744C7CFB14803175002EE65E /* UIKit.framework in Frameworks */,
+				744C7CFD14803175002EE65E /* Foundation.framework in Frameworks */,
+				744C7CFF14803175002EE65E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		744C7CEB14803175002EE65E = {
+			isa = PBXGroup;
+			children = (
+				744C7D0014803175002EE65E /* Draw2D */,
+				744C7CF914803175002EE65E /* Frameworks */,
+				744C7CF714803175002EE65E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		744C7CF714803175002EE65E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				744C7CF614803175002EE65E /* Draw2D.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		744C7CF914803175002EE65E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				744C7D1C14804DA3002EE65E /* CoreImage.framework */,
+				744C7CFA14803175002EE65E /* UIKit.framework */,
+				744C7CFC14803175002EE65E /* Foundation.framework */,
+				744C7CFE14803175002EE65E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		744C7D0014803175002EE65E /* Draw2D */ = {
+			isa = PBXGroup;
+			children = (
+				744C7D0914803175002EE65E /* Draw2DAppDelegate.h */,
+				744C7D0A14803175002EE65E /* Draw2DAppDelegate.m */,
+				744C7D0C14803175002EE65E /* Draw2DViewController.h */,
+				744C7D0D14803175002EE65E /* Draw2DViewController.m */,
+				744C7D0F14803175002EE65E /* Draw2DViewController.xib */,
+				744C7D17148031B8002EE65E /* Draw2D.h */,
+				744C7D18148031B8002EE65E /* Draw2D.m */,
+				744C7D0114803175002EE65E /* Supporting Files */,
+			);
+			path = Draw2D;
+			sourceTree = "<group>";
+		};
+		744C7D0114803175002EE65E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				744C7D1A14804B05002EE65E /* pumpkin.jpg */,
+				744C7D0214803175002EE65E /* Draw2D-Info.plist */,
+				744C7D0314803175002EE65E /* InfoPlist.strings */,
+				744C7D0614803175002EE65E /* main.m */,
+				744C7D0814803175002EE65E /* Draw2D-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		744C7CF514803175002EE65E /* Draw2D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 744C7D1414803175002EE65E /* Build configuration list for PBXNativeTarget "Draw2D" */;
+			buildPhases = (
+				744C7CF214803175002EE65E /* Sources */,
+				744C7CF314803175002EE65E /* Frameworks */,
+				744C7CF414803175002EE65E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Draw2D;
+			productName = Draw2D;
+			productReference = 744C7CF614803175002EE65E /* Draw2D.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		744C7CED14803175002EE65E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 744C7CF014803175002EE65E /* Build configuration list for PBXProject "Draw2D" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 744C7CEB14803175002EE65E;
+			productRefGroup = 744C7CF714803175002EE65E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				744C7CF514803175002EE65E /* Draw2D */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		744C7CF414803175002EE65E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744C7D0514803175002EE65E /* InfoPlist.strings in Resources */,
+				744C7D1114803175002EE65E /* Draw2DViewController.xib in Resources */,
+				744C7D1B14804B05002EE65E /* pumpkin.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		744C7CF214803175002EE65E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744C7D0714803175002EE65E /* main.m in Sources */,
+				744C7D0B14803175002EE65E /* Draw2DAppDelegate.m in Sources */,
+				744C7D0E14803175002EE65E /* Draw2DViewController.m in Sources */,
+				744C7D19148031B8002EE65E /* Draw2D.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		744C7D0314803175002EE65E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				744C7D0414803175002EE65E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		744C7D0F14803175002EE65E /* Draw2DViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				744C7D1014803175002EE65E /* en */,
+			);
+			name = Draw2DViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		744C7D1214803175002EE65E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		744C7D1314803175002EE65E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		744C7D1514803175002EE65E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Draw2D/Draw2D-Prefix.pch";
+				INFOPLIST_FILE = "Draw2D/Draw2D-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		744C7D1614803175002EE65E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Draw2D/Draw2D-Prefix.pch";
+				INFOPLIST_FILE = "Draw2D/Draw2D-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		744C7CF014803175002EE65E /* Build configuration list for PBXProject "Draw2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				744C7D1214803175002EE65E /* Debug */,
+				744C7D1314803175002EE65E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		744C7D1414803175002EE65E /* Build configuration list for PBXNativeTarget "Draw2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				744C7D1514803175002EE65E /* Debug */,
+				744C7D1614803175002EE65E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 744C7CED14803175002EE65E /* Project object */;
+}

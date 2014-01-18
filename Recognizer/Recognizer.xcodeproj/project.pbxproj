@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74DA291A147F5A5D00A95A70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DA2919147F5A5D00A95A70 /* UIKit.framework */; };
+		74DA291C147F5A5D00A95A70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DA291B147F5A5D00A95A70 /* Foundation.framework */; };
+		74DA291E147F5A5D00A95A70 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DA291D147F5A5D00A95A70 /* CoreGraphics.framework */; };
+		74DA2924147F5A5D00A95A70 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74DA2922147F5A5D00A95A70 /* InfoPlist.strings */; };
+		74DA2926147F5A5D00A95A70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DA2925147F5A5D00A95A70 /* main.m */; };
+		74DA292A147F5A5D00A95A70 /* RecognizerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DA2929147F5A5D00A95A70 /* RecognizerAppDelegate.m */; };
+		74DA292D147F5A5D00A95A70 /* RecognizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DA292C147F5A5D00A95A70 /* RecognizerViewController.m */; };
+		74DA2930147F5A5D00A95A70 /* RecognizerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74DA292E147F5A5D00A95A70 /* RecognizerViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74DA2915147F5A5D00A95A70 /* Recognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DA2919147F5A5D00A95A70 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		74DA291B147F5A5D00A95A70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		74DA291D147F5A5D00A95A70 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		74DA2921147F5A5D00A95A70 /* Recognizer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recognizer-Info.plist"; sourceTree = "<group>"; };
+		74DA2923147F5A5D00A95A70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		74DA2925147F5A5D00A95A70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74DA2927147F5A5D00A95A70 /* Recognizer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recognizer-Prefix.pch"; sourceTree = "<group>"; };
+		74DA2928147F5A5D00A95A70 /* RecognizerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecognizerAppDelegate.h; sourceTree = "<group>"; };
+		74DA2929147F5A5D00A95A70 /* RecognizerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecognizerAppDelegate.m; sourceTree = "<group>"; };
+		74DA292B147F5A5D00A95A70 /* RecognizerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecognizerViewController.h; sourceTree = "<group>"; };
+		74DA292C147F5A5D00A95A70 /* RecognizerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecognizerViewController.m; sourceTree = "<group>"; };
+		74DA292F147F5A5D00A95A70 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RecognizerViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74DA2912147F5A5D00A95A70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DA291A147F5A5D00A95A70 /* UIKit.framework in Frameworks */,
+				74DA291C147F5A5D00A95A70 /* Foundation.framework in Frameworks */,
+				74DA291E147F5A5D00A95A70 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74DA290A147F5A5D00A95A70 = {
+			isa = PBXGroup;
+			children = (
+				74DA291F147F5A5D00A95A70 /* Recognizer */,
+				74DA2918147F5A5D00A95A70 /* Frameworks */,
+				74DA2916147F5A5D00A95A70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74DA2916147F5A5D00A95A70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74DA2915147F5A5D00A95A70 /* Recognizer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74DA2918147F5A5D00A95A70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74DA2919147F5A5D00A95A70 /* UIKit.framework */,
+				74DA291B147F5A5D00A95A70 /* Foundation.framework */,
+				74DA291D147F5A5D00A95A70 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74DA291F147F5A5D00A95A70 /* Recognizer */ = {
+			isa = PBXGroup;
+			children = (
+				74DA2928147F5A5D00A95A70 /* RecognizerAppDelegate.h */,
+				74DA2929147F5A5D00A95A70 /* RecognizerAppDelegate.m */,
+				74DA292B147F5A5D00A95A70 /* RecognizerViewController.h */,
+				74DA292C147F5A5D00A95A70 /* RecognizerViewController.m */,
+				74DA292E147F5A5D00A95A70 /* RecognizerViewController.xib */,
+				74DA2920147F5A5D00A95A70 /* Supporting Files */,
+			);
+			path = Recognizer;
+			sourceTree = "<group>";
+		};
+		74DA2920147F5A5D00A95A70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74DA2921147F5A5D00A95A70 /* Recognizer-Info.plist */,
+				74DA2922147F5A5D00A95A70 /* InfoPlist.strings */,
+				74DA2925147F5A5D00A95A70 /* main.m */,
+				74DA2927147F5A5D00A95A70 /* Recognizer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74DA2914147F5A5D00A95A70 /* Recognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74DA2933147F5A5D00A95A70 /* Build configuration list for PBXNativeTarget "Recognizer" */;
+			buildPhases = (
+				74DA2911147F5A5D00A95A70 /* Sources */,
+				74DA2912147F5A5D00A95A70 /* Frameworks */,
+				74DA2913147F5A5D00A95A70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Recognizer;
+			productName = Recognizer;
+			productReference = 74DA2915147F5A5D00A95A70 /* Recognizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74DA290C147F5A5D00A95A70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 74DA290F147F5A5D00A95A70 /* Build configuration list for PBXProject "Recognizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 74DA290A147F5A5D00A95A70;
+			productRefGroup = 74DA2916147F5A5D00A95A70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74DA2914147F5A5D00A95A70 /* Recognizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74DA2913147F5A5D00A95A70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DA2924147F5A5D00A95A70 /* InfoPlist.strings in Resources */,
+				74DA2930147F5A5D00A95A70 /* RecognizerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74DA2911147F5A5D00A95A70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DA2926147F5A5D00A95A70 /* main.m in Sources */,
+				74DA292A147F5A5D00A95A70 /* RecognizerAppDelegate.m in Sources */,
+				74DA292D147F5A5D00A95A70 /* RecognizerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74DA2922147F5A5D00A95A70 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74DA2923147F5A5D00A95A70 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		74DA292E147F5A5D00A95A70 /* RecognizerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74DA292F147F5A5D00A95A70 /* en */,
+			);
+			name = RecognizerViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74DA2931147F5A5D00A95A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74DA2932147F5A5D00A95A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74DA2934147F5A5D00A95A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recognizer/Recognizer-Prefix.pch";
+				INFOPLIST_FILE = "Recognizer/Recognizer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		74DA2935147F5A5D00A95A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recognizer/Recognizer-Prefix.pch";
+				INFOPLIST_FILE = "Recognizer/Recognizer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74DA290F147F5A5D00A95A70 /* Build configuration list for PBXProject "Recognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DA2931147F5A5D00A95A70 /* Debug */,
+				74DA2932147F5A5D00A95A70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74DA2933147F5A5D00A95A70 /* Build configuration list for PBXNativeTarget "Recognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DA2934147F5A5D00A95A70 /* Debug */,
+				74DA2935147F5A5D00A95A70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74DA290C147F5A5D00A95A70 /* Project object */;
+}
